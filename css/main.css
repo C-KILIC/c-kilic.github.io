@@ -1,0 +1,49 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+* {box-sizing: border-box;}
+
+/* main */
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--color-primary);
+  background: var(--color-background);
+
+}
+.theme-dark {
+   --color-primary: #eee;
+   --color-background: #222;
+   --color-pa: darkslategray;
+   --color-blog: red;
+   --color-link:lightsteelblue;
+   --invert-percent-1:50%;
+   --invert-percent-2:100%;
+   --invert-percent-3:100%;
+   --color-card: #eee;
+}
+.theme-light {
+   --color-primary: #222;
+   --color-background: #fff;
+   --color-pa: lightsteelblue;
+   --color-blog: darkcyan;
+   --color-link: darkslategray;
+   --invert-percent-1:0%;
+   --invert-percent-2:50%;
+   --invert-percent-3:0%;
+   --color-card: #333;
+}
