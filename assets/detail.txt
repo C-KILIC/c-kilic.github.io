@@ -1,0 +1,58 @@
+1.	Fabrikası Çelik Konstrüksiyon Dizaynı (HPN,IPN,UPN Profil, Kaynak ve Bağlantı Sistemleri Tasarımı)
+Yapısal ve Statik Analizleri
+Kiriş Yük Hesapları
+1_1.	Siklon, elevatör ve Cehennimlik Tasarımları 
+Büyük Tasarım Yerleşimleri Kot(Bölümlendirme) Konsept tasarımları
+1_2.	Hareket Mekanizmaları
+Kurutma Üniteleri 
+Bant Sistemleri Tasarımı
+1_3.	Seperatör (Ayrıştırma Sistemi) Tasarımı
+1_4.	Değirmen (Öğütme Sistemleri) Sistemleri ve Borulama Sistemleri Tasarımı
+
+2.	Değirmen (Öğütme Sistemleri) Sistemleri
+Üst kısmından giren parçaları bir kırma ünitesi ile parçalayıp içindeki elek yardımıyla standart büyüklükteki  partiküller haline getirerek  alt kısmında bulunan mekanik tesisat sistemi ile konteynırlara yüklenmesini sağlayan bir ünitedir.
+
+3.	Separatör (Ayrıştırma Sistemi) Tasarımı
+Farklı borularla çeşitli büyüklüklerde malzeme girişini, üst kısmındaki blade’leri ayarlayan bir rot sistemiyle istenilen büyüklükte kırıp ufalayan bir ünitedir. Ufalanan ve kaba boyutta olan parçaları birkaç standart büyüklüğe göre ayıran ve ufalanmış parçaları değirmene kaba boyutta olan parçaları ise cehennemliğe mekanik tesisat yardımıyla  iletir.
+
+4.	Yumurta Taşıma Makinası
+Önceden kolilenmiş yumurtaları selenyum havuzuna taşımak ve istiflemek için kolileri yakalamak, taşıyıp, döndürmek ve taşıma bandına iletmek için yapılmış bir ünitedir.
+
+5.	İstihbarat ve Keşif Sistemi
+Team üyelerinin birbirlerinin konumlarını bileklerindeki bir ekran görebildikleri bir drone aracılığı ile birbirleri ile iletişim kurabildikleri aynı zamanda drone kamerasından görüntü alabildikleri güneş hücresi ile kontrol ünitesinin, kol ekranın, kameranın ve diğer teçhizatlarının çalıştırılabildiği bir keşif sisteminin modellenmesi ve animasyonun yapılması.
+6.	Go Kart Tasarımı
+Üniversite bitirme projesi olarak bir Go Kartın tasarımı ve üretim projesi.
+7.	Savaş uçağı modellemesi
+Hobi olarak üretilebilir ve hesaplanmış bir savaş uçağı modellenmesi.
+
+8.	Airbus A319 modellenmesi 
+Turkish Technic İnc. Şirketinde Part-21.J DOA projelerinde ön tasarım olarak kullanılması için tam ölçülerinde modellenmiş bir Airbus A319 yolcu uçağı gövdesi ve motoru.
+
+9.	Boeing B737-800 modellenmesi 
+Turkish Technic İnc. Şirketinde Part-21.J DOA projelerde ön tasarım olarak kullanılması için tam ölçülerinde modellenmiş bir Boing B737-800 yolcu uçağı gövdesi ve motoru.
+
+
+10.	Aparat tasarımları
+Kaynatılması istenen Hareketli Platform parçalarının (Mass’ lerin) kaynatılabilmesi için robot, aparat, fikstür, pozisyoner tasarımı ve imalatı.
+
+11.	Şişe Kırma makinası
+Cam şişelerin yeniden eritilmesi öncesinde kırılması için yapılmış bir makinadır. Şişeler konveyör aracılığı ile kırma ünitesine girer. Ters tarakta yerini aldığında motor tahriki ile dönen taraklar şişeleri sıkıştırarak kırarlar.
+
+12.	Wireless Quick Access Recorder
+Uçakların taksi, kalkış ve iniş esnasında yaptıkları tüm hareketlerde kullandığı sistemlerin enerji giderlerini, pozisyon bilgilerini, yakıt bilgilerini ve buna benzer birçok bilgiyi yakalayan sensörleri ve bilgisayarları bulunmaktadır. Her bir sensörün ve bilgisayarın ayrı ayrı iletişim protokolleri bulunmaktadır. Bunların her birinden gönderilen bilgileri ARINC standartları ile toplayıp, derleyip yer istasyonuna aktaran bir bilgisayardır. Yer istasyonu bu bilgileri değerlendirerek pilotaj kaynaklı veya sistemsel kaynaklı hataları analiz eder ve geri bildirime uygun olarak bu hatalar en aza indirgenir. Proje Mühendisliğini üstlendiğim bu proje MCU standartlarına uygun olarak ölçeklendirilip ASME Y14.5M-2009 standartlarında resimleri üretilerek DO-160G standartlarına uygun tasarım ve imalatı yapılmıştır. 
+
+13.	In-Flight Equipment
+Yolcuların uçuş esnasında kullandıkları koltuk arkası ekranların, konsolların veya Passenger Service Unit (PSU)’ lerin datalarının barındırıldığı bilgisayardır. Tüm bu işlemler bu bilgisayar üzerinden yapılır. MCU standartlarına uygun olarak ölçeklendirilip ASME Y14.5M-2009 standartlarında resimleri üretilerek DO-160G standartlarına uygun tasarım ve imalatı yapılmıştır.
+14.	Flash Counter Light Box
+Uçak kanat uçlarında bulunan lambaların flash sayımlarının yapıldığı bir test cihazıdır. 
+15.	VIP Aircraft (Airbus A340-500) Modifikasyon Çalışması
+İçerisinde bar ünitesi ve kanepelerin bulunduğu STA17 ile STA38.1 arasında bulunan kabin kısmının isterler doğrultusunda Toplantı odasına dönüştürülmesi için gerekli tasarımların ve çizimlerinin oluşturulması.
+16.	VIP Aircraft (Airbus A340-500) Modifikasyon Çalışması
+İçerisinde bar ünitesi ve kanepelerin bulunduğu STA17 ile STA38.1 arasında bulunan kabin kısmının isterler doğrultusunda Toplantı odasına dönüştürülmesi için gerekli tasarımların ve çizimlerinin oluşturulması.
+17.	Sedye (Stretcher) Projesi
+Çeşitli tipteki uçaklarda hasta taşımacılığında kullanılan Turkish Technic Inc. şirketi tarafından tasarlanmış sedyelerin dökümantasyonu için BOM (Bill of Material List) üretmek için oluşturulmuş patlatma resimleridir.
+
+Ayrıca renderlama  ve montaj animasyon hizmetleride verilmiştir.
+
+
+
