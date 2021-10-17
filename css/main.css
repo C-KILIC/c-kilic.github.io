@@ -76,7 +76,7 @@ ul.nav-pills {
 }
 
 /* adaptive */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 849px){
   
   ul.nav-pills {
     top:50px;
@@ -89,3 +89,21 @@ ul.nav-pills {
   }
   
  }
+
+ @media only screen and (min-width: 850px) and (max-height: 600px) {
+  
+  ul.nav-pills {
+    top:50px;
+    left:10px;
+  }
+
+ .nav-pills {
+  font-size: 0.8rem;
+  display: flex;
+ }
+
+ #myBtn {
+  font-size:12px;
+}
+
+}
