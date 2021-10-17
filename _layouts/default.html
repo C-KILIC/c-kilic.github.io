@@ -14,9 +14,6 @@
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="/css/main.css">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
@@ -24,11 +21,24 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <div id="header">
-    <p id="header-text">Welcome to Caner Kılıç's Portfolio!</p>
+    <p id="header-text">Caner Kılıç's Portfolio</p>
+  </div>
+  <div id="contact">
+    <a class="contact-links" href="malito:canerkilic@protonmail.com" target="_blank"><img height="24" width="24"
+        src="/assets/mail.svg"/></a>
+    <a class="contact-links" href="https://www.linkedin.com/in/caner-kili%C3%A7-57118312b/" target="_blank"><img height="24"
+        width="24" src="/assets/linkedin.svg"/></a>
   </div>
 
   <div id="container">
     {{ content }}
+  </div>
+
+  <div id="contact" class="footer">
+    <a class="contact-links" href="malito:canerkilic@protonmail.com" target="_blank"><img height="24" width="24"
+        src="/assets/mail.svg"/></a>
+    <a class="contact-links" href="https://www.linkedin.com/in/caner-kili%C3%A7-57118312b/" target="_blank"><img height="24"
+        width="24" src="/assets/linkedin.svg"/></a>
   </div>
 
         <script>
@@ -39,10 +49,8 @@
             function scrollFunction() {
               if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
                 mybutton.style.display = "block";
-                document.getElementById("liste").style.top = "10px";
               } else {
                 mybutton.style.display = "none";
-                document.getElementById("liste").style.top = "50px";
               }
             }
             
