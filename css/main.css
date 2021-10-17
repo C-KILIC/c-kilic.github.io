@@ -60,6 +60,7 @@ body {
 
 .liste-links {
   margin-left:10px;
+  margin-bottom:40px;
 }
 
 .liste-links li {
@@ -123,100 +124,14 @@ border-radius: 2px;
 padding: 10px;
 background-color: white;
 width:400px;
+position: sticky;
+left: 15px;
+top: 20px;
 
-}
-
-#pA319 {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-
-#pB737 {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-
-#pJet {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-
-#pMill {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-#pSeperator {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-
-#pEgg {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-#pHuman {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-
-#pGokart {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-#pFactory {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-
-#pFixture {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-#pBottle {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-
-#pQar {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-#pIFE {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-
-#pLight {
-  position: sticky;
-  left: 15px;
-  top: 200px;
-}
-
-#pExplode {
-  position: sticky;
-  left: 15px;
-  top: 200px;
 }
 
 /* adaptive */
 @media only screen and (max-width: 500px){
-
-  #header {
-    height:100px;
-  }
 
   #myBtn {
     font-size:12px;
