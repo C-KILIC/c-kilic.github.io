@@ -22,7 +22,15 @@ time, mark, audio, video {
 body {
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
-  background-color: #eee;
+  background-color: rgba(238, 238, 238, 0.5);
+
+  --color-thy: #C70A0C;
+  --color-text: #555;
+  --color-border: rgba(8, 8, 8, 0.2);
+  --color-shadow: #ddd;
+  --color-shadowkutu: rgba(8, 8, 8, 0.2);
+  --color-borderkutu: #ddd;
+
 }
 
 #header {
@@ -30,22 +38,29 @@ body {
   color: rgb(10, 10, 10);
   width: 100%;
   height:auto;
-  border-bottom: 2px dashed #555;
+  border-bottom: 2px dashed var(--color-text);
 }
 
 #header-text {
   font-size: 2rem;
   text-align: center;
-  color:#555;
+  color: var(--color-text);
 }
 
 #header-text:hover {
-  color:#C70A0C;
+  color:var(--color-thy);
 }
 
 #container {
-  width: 100%;
+  margin: auto;
+  width: 90%;
   height: 100%;
+  border: 1px solid var(--color-border);
+box-shadow: 0px 0px 5px var(--color-shadow);
+border-radius: 10px;
+padding-top: 15px;
+padding-bottom:15px;
+background-color: white;
 }
 
 .liste-images {
@@ -73,12 +88,12 @@ body {
 }
 
 .liste-links a:hover {
-  color:#C70A0C;
+  color:var(--color-thy);
   text-decoration: underline;
 }
 
 .liste-links a:visited {
-  color:#C70A0C;
+  color:var(--color-thy);
 }
 
 #contact {
@@ -106,7 +121,7 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #555;
+  background-color: var(--color-text);
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -114,21 +129,21 @@ body {
 }
 
 #myBtn:hover {
-  background-color: #C70A0C;
+  background-color: var(--color-thy);
 }
 
 .kutu  {
 
-border: 1px solid rgba(160, 130, 130, 0.5);
-box-shadow: 0px 2px 10px rgba(160, 130, 130, 0.3);
-border-radius: 2px;
+border: 1px solid var(--color-borderkutu);
+box-shadow: 0px 2px 10px var(--color-shadowkutu);
+border-radius: 5px;
 padding: 10px;
 background-color: white;
 width:400px;
 position: sticky;
 left: 15px;
 top: 20px;
-
+margin-left:10px;
 }
 
 /* adaptive */
@@ -141,6 +156,7 @@ top: 20px;
   .kutu {
     font-size:0.7rem;
     width:90%;
+    margin:auto;
   }
 
  }
@@ -154,6 +170,7 @@ top: 20px;
   .kutu {
     font-size:0.7rem;
     width:90%;
+    margin:auto;
   }
 
  }
@@ -167,6 +184,7 @@ top: 20px;
 .kutu {
   font-size:0.7rem;
   width:90%;
+  margin:auto;
 }
 
  }
