@@ -3,7 +3,6 @@ title: Caner Kılıç
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 url: https://c-kilic.github.io
-logo: /favicon.svg
 social:
   links:
     - https://github.com/c-kilic
