@@ -25,7 +25,7 @@ body {
   background-color: rgba(238, 238, 238, 0.5);
 
   --color-thy: #C70A0C;
-  --color-text: #555;
+  --color-text: rgb(170, 170, 170);
   --color-border: rgba(8, 8, 8, 0.2);
   --color-shadow: #ddd;
   --color-shadowkutu: rgba(8, 8, 8, 0.2);
@@ -56,11 +56,11 @@ body {
   width: 1330px;
   height: 100%;
   border: 1px solid var(--color-border);
-box-shadow: 0px 0px 5px var(--color-shadow);
-border-radius: 10px;
-padding-top: 15px;
-padding-bottom:15px;
-background-color: white;
+  box-shadow: 0px 0px 5px var(--color-shadow);
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom:15px;
+  background-color: white;
 }
 
 .liste-images {
@@ -70,24 +70,18 @@ background-color: white;
 .image{  
   max-width:100%;
   min-height:100%;
-  object-fit:cover;
+  object-fit:contain;
 }
 
-.sag {
-  text-align:right;
-}
-.sol {
-  text-align:left;
-}
 
 .content-kutu {
-width:650px;
-height:650px;
+width:620px;
+height:620px;
 display: inline-block;
 padding:10px;
-
 margin:auto;
-
+border:1px dashed var(--color-thy);
+border-radius: 10px;
 }
 
 .liste-links {
@@ -165,6 +159,16 @@ position: sticky;
 top: 0px;
 }
 
+.kutu-sag {
+  float:right;
+  text-align: right;
+}
+
+.sol {
+  text-align: left;
+  margin-left:45px;
+}
+
 /* adaptive */
 @media only screen and (max-width: 500px){
 
@@ -174,7 +178,7 @@ top: 0px;
 
   .kutu {
     font-size:0.7rem;
-    width:90%;
+    width:100%;
     height:auto;
     margin:auto;
     text-align:center;
@@ -193,22 +197,20 @@ top: 0px;
     max-width:100%;
     max-height:100%;
   }
-  .sag .sol {
-    margin-right:auto;
-    margin-left: auto;
+  .sol  {
+    margin:0px;
   }
 
  }
 
-@media only screen and (min-width: 501px) and (max-width: 850px){
+@media only screen and (min-width: 501px) and (max-width: 1330px){
 
   #myBtn {
     font-size:12px;
   }
 
   .kutu {
-    font-size:0.7rem;
-    width:90%;
+    width:100%;
     height:auto;
     margin:auto;
     text-align:center;
@@ -226,9 +228,8 @@ top: 0px;
     max-width:100%;
     max-height:100%;
   }
-  .sag .sol {
-    margin-right:auto;
-    margin-left: auto;
+  .sol  {
+    margin:0px;
   }
 
  }
@@ -241,7 +242,7 @@ top: 0px;
 
 .kutu {
   font-size:0.7rem;
-  width:90%;
+  width:100%;
   margin:auto;
   text-align:center;
 }
@@ -258,9 +259,8 @@ top: 0px;
   max-width:100%;
   max-height:100%;
 }
-.sag .sol {
-  margin-right:0px;
-  margin-left: 0px;
+.sol  {
+  margin:0px;
 }
 
- }
+}
