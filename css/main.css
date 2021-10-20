@@ -25,7 +25,7 @@ body {
   background-color: rgba(238, 238, 238, 0.5);
 
   --color-thy: #C70A0C;
-  --color-text: rgb(170, 170, 170);
+  --color-text: black;
   --color-border: rgba(8, 8, 8, 0.2);
   --color-shadow: #ddd;
   --color-shadowkutu: rgba(8, 8, 8, 0.2);
@@ -44,11 +44,11 @@ body {
 #header-text {
   font-size: 2rem;
   text-align: center;
-  color: var(--color-text);
+  color:var(--color-thy);
 }
 
 #header-text:hover {
-  color:var(--color-thy);
+  filter: invert(70%);
 }
 
 #container {
@@ -58,8 +58,6 @@ body {
   border: 1px solid var(--color-border);
   box-shadow: 0px 0px 5px var(--color-shadow);
   border-radius: 10px;
-  padding-top: 15px;
-  padding-bottom:15px;
   background-color: white;
 }
 
@@ -77,7 +75,6 @@ body {
 
 .content-kutu {
 width:620px;
-height:620px;
 display: inline-block;
 padding:10px;
 margin:auto;
@@ -112,10 +109,10 @@ margin:auto;
 
 .contact-links{
   margin-right:5px;margin-left:5px; display:inline-block;
-  filter: invert(50%);
+  filter: invert(0%);
 }
 .contact-links:hover {
-  filter: invert(0%);
+  filter: invert(70%);
 }
 
 .footer {
