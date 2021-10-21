@@ -184,6 +184,9 @@ display:none;
     background-color: white;
     border-radius: 10px;
   }
+  .content-kutu:hover .centered{
+    display: none;
+  }
 
  }
 
@@ -223,5 +226,7 @@ display:none;
     background-color: white;
     border-radius: 10px;
   }
-
+  .content-kutu:hover .centered{
+    display: none;
+  }
  }
