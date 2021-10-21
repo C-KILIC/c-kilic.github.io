@@ -21,15 +21,14 @@ time, mark, audio, video {
 /* main */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-  background-color: rgba(238, 238, 238, 0.5);
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 10%, rgba(187,187,187,1) 100%); 
 
   --color-thy: #C70A0C;
-  --color-text: black;
+  --color-text: white;
   --color-border: rgba(8, 8, 8, 0.2);
-  --color-shadow: #ddd;
+  --color-shadow: rgb(150, 150, 150);
   --color-shadowkutu: rgba(8, 8, 8, 0.2);
-  --color-borderkutu: #ddd;
   --color-kutuback: rgba(255, 255, 255, 0.5);
 
 }
@@ -39,45 +38,74 @@ body {
   color: rgb(10, 10, 10);
   width: 100%;
   height:auto;
+  padding-bottom:10px;
+  padding-top:50px;
 }
 
-#header-text {
-  font-size: 2rem;
+#header-text{
+  font-size: 4rem;
   text-align: center;
-  color:var(--color-thy);
+  color:var(--color-text);
+  font-weight: 500;
 }
 
-#header-text:hover {
-  filter: invert(70%);
+#header:nth-child(2) {
+  font-size: 1.5rem;
+  text-align: center;
+  color:var(--color-text);
+  font-weight: 200;
 }
 
 #container {
-  margin: auto;
-  width: 1330px;
-  height: 100%;
-  border: 1px solid var(--color-border);
-  box-shadow: 0px 0px 5px var(--color-shadow);
-  border-radius: 10px;
-  background-color: white;
+  margin-left:auto;
+  margin-right:auto;
+  width: 1000px;
+  height:100%;
 }
 
 .liste-images {
-  justify-content: center;
+  display:inline-block;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  display: none;
+  color:white;
+  -webkit-text-stroke: 0.5px var(--color-thy);
+  font-weight: 600;
 }
 
 .image{  
-  max-width:100%;
-  min-height:100%;
-  object-fit:contain;
-  border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
 
-
 .content-kutu {
-width:620px;
-display: inline-block;
-padding:10px;
-margin:auto;
+height:100%;
+position: relative;
+text-align: center;
+margin:5px;
+float: left;
+width: 49%;
+}
+
+.content-kutu:hover .centered{
+  display: block;
+}
+
+.kutu  {
+background-color:  var(--color-kutuback);
+box-shadow: 0px 2px 10px var(--color-shadowkutu);
+border-radius: 5px;
+padding: 10px;
+width:400px;
+position: sticky;
+top: 0px;
+display:none;
 }
 
 .liste-links {
@@ -109,7 +137,6 @@ margin:auto;
 
 .contact-links{
   margin-right:5px;margin-left:5px; display:inline-block;
-  filter: invert(0%);
 }
 .contact-links:hover {
   filter: invert(70%);
@@ -121,6 +148,7 @@ margin:auto;
 
 .footerfoot {
   margin-top: 20px; margin-bottom:20px;
+  filter: invert(70%);
 }
 
 #myBtn {
@@ -132,7 +160,7 @@ margin:auto;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: var(--color-text);
+  background-color: var(--color-thy);
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -140,29 +168,7 @@ margin:auto;
 }
 
 #myBtn:hover {
-  background-color: var(--color-thy);
-}
-
-.kutu  {
-background-color:  var(--color-kutuback);
-border: 1px solid var(--color-borderkutu);
-box-shadow: 0px 2px 10px var(--color-shadowkutu);
-border-radius: 5px;
-padding: 10px;
-width:400px;
-height:73px;
-position: sticky;
-top: 0px;
-}
-
-.kutu-sag {
-  float:right;
-  text-align: right;
-}
-
-.sol {
-  text-align: left;
-  margin-left:45px;
+  filter: invert(70%);
 }
 
 /* adaptive */
@@ -174,42 +180,51 @@ top: 0px;
 
   .kutu {
     font-size:0.7rem;
-    width:100%;
+    width:90%;
     height:auto;
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
     text-align:center;
+    display:block;
   }
 
   #container {
     width: 90%;
   }
-
   .content-kutu {
     width:auto;
     height:auto;
-    margin-bottom:auto;
+    margin:0;
   }
   .image{  
     max-width:100%;
     max-height:100%;
+    border-radius: 15px;
   }
-  .sol  {
-    margin:0px;
+  .centered{
+    display:none;
+  }
+  .liste-images{
+    box-shadow: 0px 10px 10px var(--color-shadow);
+    background-color: white;
+    border-radius: 10px;
   }
 
  }
 
-@media only screen and (min-width: 501px) and (max-width: 1330px){
+@media only screen and (min-width: 501px) and (max-width: 1000px){
 
   #myBtn {
     font-size:12px;
   }
 
   .kutu {
-    width:100%;
+    width:90%;
     height:auto;
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
     text-align:center;
+    display:block;
   }
 
   #container {
@@ -218,45 +233,20 @@ top: 0px;
   .content-kutu {
     width:auto;
     height:auto;
-    margin-bottom:auto;
+    margin:0;
   }
   .image{  
     max-width:100%;
     max-height:100%;
+    border-radius: 15px;
   }
-  .sol  {
-    margin:0px;
+  .centered{
+    display:none;
+  }
+  .liste-images{
+    box-shadow: 0px 10px 10px var(--color-shadow);
+    background-color: white;
+    border-radius: 10px;
   }
 
  }
-
- @media only screen and (max-height: 400px){
-
-.liste-links ul {
-  font-size:0.8rem;
-}
-
-.kutu {
-  font-size:0.7rem;
-  width:100%;
-  margin:auto;
-  text-align:center;
-}
-
-#container {
-  width: 90%;
-}
-.content-kutu {
-  width:auto;
-  height:auto;
-  margin-bottom:0px;
-}
-.image{  
-  max-width:100%;
-  max-height:100%;
-}
-.sol  {
-  margin:0px;
-}
-
-}
