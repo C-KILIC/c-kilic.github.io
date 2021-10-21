@@ -23,14 +23,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 10%, rgba(187,187,187,1) 100%); 
-
   --color-thy: #C70A0C;
   --color-text: white;
   --color-border: rgba(8, 8, 8, 0.2);
   --color-shadow: rgb(150, 150, 150);
   --color-shadowkutu: rgba(8, 8, 8, 0.2);
   --color-kutuback: rgba(255, 255, 255, 0.5);
-
 }
 
 #header {
@@ -106,29 +104,6 @@ width:400px;
 position: sticky;
 top: 0px;
 display:none;
-}
-
-.liste-links {
-  margin-left:10px;
-  margin-bottom:40px;
-  display: none;
-}
-
-.liste-links li {
-  list-style-type: none;
-}
-
-.liste-links a {
-  text-decoration: none;
-}
-
-.liste-links a:hover {
-  color:var(--color-thy);
-  text-decoration: underline;
-}
-
-.liste-links a:visited {
-  color:var(--color-thy);
 }
 
 #contact {
