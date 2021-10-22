@@ -22,18 +22,17 @@ time, mark, audio, video {
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 10%, rgba(187,187,187,1) 100%); 
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,187,187,1) 100%); 
   --color-thy: #C70A0C;
   --color-text: white;
-  --color-border: rgba(8, 8, 8, 0.2);
-  --color-shadow: rgb(150, 150, 150);
+  --color-shadow: rgba(8, 8, 8, 0.5);
   --color-shadowkutu: rgba(8, 8, 8, 0.2);
-  --color-kutuback: rgba(255, 255, 255, 0.5);
+  --color-back: rgba(255, 255, 255, 0.5);
 }
+
 
 #header {
   padding: 10px 0px 10px 0px;
-  color: rgb(10, 10, 10);
   width: 100%;
   height:auto;
   padding-bottom:10px;
@@ -44,7 +43,7 @@ body {
   font-size: 4rem;
   text-align: center;
   color:var(--color-text);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #header:nth-child(2) {
@@ -72,9 +71,9 @@ body {
   transform: translate(-50%, -50%);
   font-size: 2rem;
   display: none;
-  color:white;
-  -webkit-text-stroke: 0.5px var(--color-thy);
-  font-weight: 600;
+  color:var(--color-thy);
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .image{  
@@ -86,9 +85,9 @@ body {
 height:100%;
 position: relative;
 text-align: center;
-margin:5px;
+margin:15px;
 float: left;
-width: 49%;
+width: 47%;
 }
 
 .content-kutu:hover .centered{
@@ -96,7 +95,7 @@ width: 49%;
 }
 
 .kutu  {
-background-color:  var(--color-kutuback);
+background-color:  var(--color-back);
 box-shadow: 0px 2px 10px var(--color-shadowkutu);
 border-radius: 5px;
 padding: 10px;
@@ -104,6 +103,8 @@ width:400px;
 position: sticky;
 top: 0px;
 display:none;
+text-transform: uppercase;
+color:var(--color-thy)
 }
 
 #contact {
@@ -114,7 +115,7 @@ display:none;
   margin-right:5px;margin-left:5px; display:inline-block;
 }
 .contact-links:hover {
-  filter: invert(70%);
+  filter: invert(100%);
 }
 
 .footer {
@@ -140,10 +141,6 @@ display:none;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
-}
-
-#myBtn:hover {
-  filter: invert(70%);
 }
 
 /* adaptive */
