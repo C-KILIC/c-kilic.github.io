@@ -71,9 +71,10 @@ body {
   transform: translate(-50%, -50%);
   font-size: 2rem;
   display: none;
-  color:var(--color-thy);
-  font-weight: 400;
+  color:white;
+  font-weight: 600;
   text-transform: uppercase;
+  -webkit-text-stroke: 1px var(--color-thy);
 }
 
 .image{  
@@ -87,7 +88,12 @@ position: relative;
 text-align: center;
 margin:15px;
 float: left;
-width: 47%;
+width: 470px;
+height: 264px;
+}
+
+.content-kutu:hover {
+  box-shadow: 0px 5px 15px var(--color-shadow);
 }
 
 .content-kutu:hover .centered{
@@ -184,6 +190,9 @@ color:var(--color-thy)
   .content-kutu:hover .centered{
     display: none;
   }
+  .content-kutu:hover {
+    box-shadow: none;
+  }
 
  }
 
@@ -225,5 +234,8 @@ color:var(--color-thy)
   }
   .content-kutu:hover .centered{
     display: none;
+  }
+  .content-kutu:hover {
+    box-shadow: none;
   }
  }
