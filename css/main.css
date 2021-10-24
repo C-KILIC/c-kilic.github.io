@@ -96,7 +96,7 @@ height: 264px;
 }
 
 .content-kutu:hover {
-  box-shadow: 0px 5px 15px var(--color-shadow);
+  box-shadow: 0px 0px 25px 8px var(--color-shadow);
 }
 
 .content-kutu:hover .centered{
