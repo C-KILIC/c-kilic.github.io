@@ -122,7 +122,7 @@ color:var(--color-thy)
 }
 
 #contact {
-  text-align:center; padding-bottom: 0px;
+  text-align:center;
 }
 
 .contact-links{
@@ -132,13 +132,14 @@ color:var(--color-thy)
   filter: invert(100%);
 }
 
-.footer {
+.header {
   margin-top: 10px; margin-bottom:20px;
 }
 
-.footerfoot {
-  margin-top: 20px; margin-bottom:20px;
-  filter: invert(70%);
+.footer {
+  padding-top: 20px;
+  font-size: 12px;
+  padding-bottom: 20px;;
 }
 
 #myBtn {
