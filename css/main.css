@@ -75,9 +75,11 @@ body {
   transform: translate(-50%, -50%);
   font-size: 2rem;
   display: none;
-  color:var(--color-thy);
+  color:var(--color-text);
   font-weight: 600;
   text-transform: uppercase;
+  
+  text-shadow: -1px -1px 0 var(--color-thy), 1px -1px 0 var(--color-thy), -1px 1px 0 var(--color-thy), 1px 1px 0 var(--color-thy);
 }
 
 .image{  
@@ -118,7 +120,7 @@ position: sticky;
 top: 0px;
 display:none;
 text-transform: uppercase;
-color:var(--color-thy)
+color:var(--color-thy);
 }
 
 #contact {
