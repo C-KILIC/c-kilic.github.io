@@ -1,11 +1,8 @@
 name: Caner Kılıç
-title: Caner Kılıç
+title: Caner Kılıç' Portfolio
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 url: https://c-kilic.github.io
 social:
   links:
     - https://github.com/c-kilic
-collections:
-  notes:
-    output: true
