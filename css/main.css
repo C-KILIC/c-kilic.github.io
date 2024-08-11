@@ -68,6 +68,10 @@ body {
 #services {
 margin-top:5px;
 font-size:0.8rem;
+width:60%;
+margin-left:auto;
+margin-right:auto;
+font-style: oblique;
 }
 
 .liste-images {
