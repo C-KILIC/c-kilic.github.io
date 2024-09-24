@@ -25,28 +25,29 @@
 </head>
 
 <body>
+  <div id="whole">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div id="header">
+      <p id="header-text">Caner Kılıç</p>
+      <p id="header-textalt">Mechanical Engineer</p>
+    </div>
 
-  <div id="header">
-    <p id="header-text">Caner Kılıç</p>
-    <p id="header-textalt">Mechanical Engineer</p>
+    <div id="contact" class="header">
+      <a class="contact-links" href="https://www.linkedin.com/in/caner-kili%C3%A7-57118312b/" target="_blank"><img height="48"
+        width="48" src="/assets/linkedin-org.svg"/></a>
+        <p id="services">Please access my LinkedIn profile for 3D files and available services</p>
+    </div>
+
+    <div id="container">
+      {{ content }}
+    </div>
+
+    <div id="contact" class="footer">
+      Site produced by <a class="" href="https://www.fatihozcan.dev" target="_blank">Fatih Mehmet Özcan</a>
+    </div>
+
   </div>
-
-  <div id="contact" class="header">
-    <a class="contact-links" href="https://www.linkedin.com/in/caner-kili%C3%A7-57118312b/" target="_blank"><img height="48"
-      width="48" src="/assets/linkedin-org.svg"/></a>
-      <p id="services">Please access my LinkedIn profile for 3D files and available services</p>
-  </div>
-
-  <div id="container">
-    {{ content }}
-  </div>
-
-  <div id="contact" class="footer">
-    Site produced by <a class="" href="https://www.fatihozcan.dev" target="_blank">Fatih Mehmet Özcan</a>
-  </div>
-
         <script>
             var mybutton = document.getElementById("myBtn");
             window.onscroll = function() {scrollFunction()};
@@ -71,13 +72,13 @@
 
   <script>
     VANTA.CLOUDS({
-      el: "body",
+      el: "whole",
       mouseControls: true,
       touchControls: false,
-      gyroControls: true,
+      gyroControls: false,
       minHeight: 200.00,
       minWidth: 200.00,
-      speed: 1.2
+      speed: 1
     })
   </script>
 
