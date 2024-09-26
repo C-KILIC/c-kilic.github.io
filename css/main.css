@@ -19,7 +19,7 @@ time, mark, audio, video {
 * {box-sizing: border-box;}
 
 html {
-  background: var(--color-background);
+  background-image: url("/assets/bg.webp");
 }
 
 html, body {
