@@ -18,10 +18,6 @@ time, mark, audio, video {
 
 * {box-sizing: border-box;}
 
-html {
-  background-image: url("/assets/bg.webp");
-}
-
 html, body {
   margin: 0;
   padding: 0;
