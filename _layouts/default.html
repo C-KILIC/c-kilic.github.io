@@ -20,20 +20,13 @@
   <link rel="mask-icon" href="/icon-main/safari-pinned-tab.svg" color="#000000">
   <link rel="shortcut icon" href="/icon-main/favicon.ico">
   <title>{{ page.title }}</title>
+  <script src="/assets/three.min.js"></script>
+  <script src="/assets/vanta.dots.min.js"></script>
 </head>
 
 <body>
 
 <div id="whole">
-
-<div id="stars-container">
-
-  <div id='stars'></div>
-  <div id='stars2'></div>
-  <div id='stars3'></div>
-
-
-</div>
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -78,6 +71,22 @@
                 });
             }
         </script>
+
+<script>
+VANTA.DOTS({
+  el: "#whole",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x101010,
+  backgroundColor: 0xEEEEEE,
+  showLines: false
+})
+</script>
 
 </body>
 
