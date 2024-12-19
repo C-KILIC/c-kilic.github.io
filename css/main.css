@@ -24,13 +24,6 @@ html, body {
   width: 100%;
 }
 
-#whole {
-margin: 0;
-padding: 0;
-width: 100%;
-height: 100%;
-}
-
 body {
   font-family: BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
@@ -41,9 +34,18 @@ body {
   --color-shadow: rgba(8, 8, 8, 0.5);
   --color-shadowkutu: rgba(8, 8, 8, 0.2);
   --color-back: rgba(255, 255, 255, 0.5);
-  --color-background: #EEE;
+  --color-background: #accfd2;
   --color-textshadow: #CCC;
 }
+
+#whole {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+background-color: var(--color-background);
+}
+
 
 #header {
 padding: 10px 0px 10px 0px;
